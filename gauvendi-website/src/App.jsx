@@ -6,7 +6,7 @@ import TechnicalDetails from './pages/TechnicalDetails';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/gauvendi-website">
       <div className="min-h-screen bg-white flex flex-col">
         <Navigation />
         <main className="flex-grow">
